@@ -1,36 +1,50 @@
 <html>
 
 <head>
+  <title>Java Web Development</title>
   <link rel="stylesheet" href="../style/style.css" />
+  <link rel="stylesheet" href="../style/jquery-ui.css">
+  <script src="../js/jquery-1.12.4.js"></script>
+  <script src="../js/jquery-ui.js"></script>
 </head>
 
 <body>
-  <div class="container">
+  <div id="accordion">
     <h3>Apache Tomcat</h3>
-    <ul>
-      <li><a href="https://www.mulesoft.com/tcat/understanding-apache-tomcat">Apache Tomcat Resources (MuleSoft)</a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-    </ul>
-  </div>
-  <div class="container">
+    <div>
+      <ul>
+        <li><a href="https://www.mulesoft.com/tcat/understanding-apache-tomcat">Apache Tomcat Resources (MuleSoft)</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </div>
+
     <h3>Servlets & JSPs</h3>
-    <ul>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-    </ul>
-  </div>
-  <div class="container">
+    <div>
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </div>
+
     <h3>Web Application Security</h3>
-    <ul>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-    </ul>
+    <div>
+      <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+    </div>
   </div>
+
+  <script>
+    $("#accordion").accordion();
+  </script>
+
 </body>
-</html
+
+</html>

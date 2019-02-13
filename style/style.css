@@ -6,29 +6,28 @@ body {
   background-image: url('../images/beach.jpg');
 }
 
-.container {
-  margin: 10px;
+#accordion {
   width: 50%;
-  border: 1px solid #eeebeb;
-  background-color: #fff;
 }
 
-h3 {
-  font-weight: normal;
-  background: #dde5e5;
-  color: #323031;
-  margin-top: 0;
-  padding: 10px;
+.ui-widget-content a:hover {
+  color: #40b4e5;
+}
+
+.container {
+  width: 40%;
+  background-color: #fff;
+  padding: 5px 10px;
 }
 
 ul {
   list-style: none;
-  margin-left: 0;
-  padding-left: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 a {
@@ -39,3 +38,36 @@ a {
 a:hover {
   color: #40b4e5;
 }
+
+/* Table style - start */
+table {
+  border: 1px solid #ddd5d5;
+  border-collapse: collapse;
+  margin: 0;
+  width: 80%;
+  font-size: 12px;
+}
+
+thead {
+  background-color: #e9f3fc
+}
+
+td {
+  border: 1px solid #ddd5d5;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+td:nth-child(1) {
+  width: 20%
+}
+
+td:nth-child(2) {
+  width: 30%;
+}
+
+ol {
+  padding-left: 10px;
+}
+/* end */
