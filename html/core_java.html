@@ -12,53 +12,115 @@
   <div id="accordion">
     <h3>Basic Java</h3>
     <div>
-      <ul>
-        <li><a href="">List Item 1</a></li>
-        <li><a href="">List Item 2</a></li>
-        <li><a href="">List Item 3</a></li>
-        <li><a href="">List Item 4</a></li>
-      </ul>
+      <table>
+        <thead>
+          <tr>
+            <td>Topic</td>
+            <td>References</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>JVM Architecture</td>
+            <td>
+              <ul>
+                <li><a href="https://www.geeksforgeeks.org/jvm-works-jvm-architecture/">JVM Architecture</a></li>
+                <li><a href="https://www.youtube.com/watch?v=ZBJ0u9MaKtM">Video Link</a></li>
+                <li><a href="https://dzone.com/articles/jvm-and-garbage-collection">JVM and Garbage Collection Interview Questions: The Beginners Guide</a></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Object Oriented Design Principles</td>
+            <td><a href=""></a></td>
+          </tr>
+          <tr>
+            <td>Text Processing</td>
+            <td><a href=""></a></td>
+          </tr>
+          <tr>
+            <td>Working with Date, Time and Calendar</td>
+            <td><a href=""></a></td>
+          </tr>
+          <tr>
+            <td>Console I/O</td>
+            <td><a href=""></a></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <h3>Multi-threading & Concurrency</h3>
     <div>
       <ul>
-        <li><a href="">List Item 1</a></li>
-        <li><a href="">List Item 2</a></li>
-        <li><a href="">List Item 3</a></li>
-        <li><a href="">List Item 4</a></li>
+        <li><a href="https://www.youtube.com/watch?v=sjMe9aecW_A&list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6&index=7"><img src="../images/yt.ico" class="yt"/>&nbsp;Thread Local</a></li>
+        <li><a href="https://www.youtube.com/watch?v=B4IVu-2hCos&list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6&index=18"><img src="../images/yt.ico" class="yt"/>&nbsp;How to detect and resolve DeadLocks?</a></li>
+        <li><a href="https://www.youtube.com/watch?v=_RSAS-gIjGo&index=19&list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6"><img src="../images/yt.ico" class="yt"/>&nbsp;How to timeout a thread?</a></li>
       </ul>
     </div>
     <h3>File I/O & Sockets</h3>
     <div>
-      <ul>
-        <li><a href="">List Item 1</a></li>
-        <li><a href="">List Item 2</a></li>
-        <li><a href="">List Item 3</a></li>
-        <li><a href="">List Item 4</a></li>
-      </ul>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <td>Topic</td>
+              <td>References</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td><a href=""></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <h3>Collections Framework</h3>
     <div>
-      <ul>
-        <li><a href="">List Item 1</a></li>
-        <li><a href="">List Item 2</a></li>
-        <li><a href="">List Item 3</a></li>
-        <li><a href="">List Item 4</a></li>
-      </ul>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <td>Topic</td>
+              <td>References</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td><a href=""></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <h3>Version specific features</h3>
     <div>
-      <ul>
-        <li><a href="">List Item 1</a></li>
-        <li><a href="">List Item 2</a></li>
-        <li><a href="">List Item 3</a></li>
-        <li><a href="">List Item 4</a></li>
-      </ul>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <td>Topic</td>
+              <td>References</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td><a href=""></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 
   <script>
-    $("#accordion").accordion();
+    $("#accordion").accordion({
+      collapsible: true,
+      active: false
+    });
   </script>
 
 </body>
